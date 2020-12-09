@@ -1,0 +1,44 @@
+.navigation{
+    display: flex;
+    background: black;
+}
+.navigation ul {
+    display: flex;
+    margin-right: 30px;
+
+}
+.navigation ul li {
+    margin-right: 30px;
+}
+.header{
+    background: gray;
+}
+.header p {
+    margin-bottom: 0px;
+}
+.main {
+    display: flex;
+}
+.content-container {
+    width: 25%;
+    background: darkgrey;
+}
+#content{
+    width: 50%;
+}
+#aside{
+    background: darkgrey;
+    width: 25%;
+}
+#footer{
+    background: darkgrey;
+    height: 50px;
+}
+#footer ul {
+    margin-top: 10px;
+    display: flex;
+
+}
+#footer ul li{
+  margin-right: 40px;
+}
