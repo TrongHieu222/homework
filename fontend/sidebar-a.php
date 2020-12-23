@@ -1,3 +1,4 @@
+<div class="main">
 <div class="content-container">
     <div class="section-navigation">
         <ul class="navi">

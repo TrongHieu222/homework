@@ -32,12 +32,12 @@ $data = [
     'e',
     'u'
 ];
-echo implode($data) . "<br>";
+   echo implode($data) . "<br>";
 //output: TrongHieu
 
 
 //strlen($string)
-$data = "TrongHieu";
+$data= "TrongHieu";
 echo strlen($data);
 //output: 9
 
@@ -60,7 +60,7 @@ echo str_replace("t","T",$data);
 
 
 //substr(string,start,length)
-echo substr("Trong Hieu", ) . "<br>"; //u
+echo substr("Trong Hieu",7 ) . "<br>"; //u
 echo substr("Trong Hieu", -1) . "<br>"; //u
 echo substr("Trong Hieu", 0, 9) . "<br>"; //Trong Hie
 echo substr("Trong Hieu", 0, -1) . "<br>"; //Trong Hie
@@ -76,16 +76,17 @@ echo strtoupper("tronghieu.com");
 //output: TRONGHIEU.COM
 
 //constant
-function dienTichHinhTron($banKinh){
-    define("PI", "3.14");
+function dienTichHinhTron($banKinh, $PI){
+//    define("PI", "3.14");
     return $PI*$banKinh**2;
 }
 
-echo "dien tich hinh trong la : " . dienTichHinhTron(9);
+echo "dien tich hinh trong la : " . dienTichHinhTron(9,3.14);
 
 
 //if-else
-    $month;
+$month =9;
+
     if ($month == 1 && $month==3 && $month == 5 && $month==7 && $month==8 && $month==10 && $month==12 ){
         echo "thang nay co 31 ngay";
     }elseif ($month == 4 && $month==6 && $month == 9 && $month==11 ){
@@ -110,7 +111,7 @@ echo "dien tich hinh trong la : " . dienTichHinhTron(9);
         echo "thang nay co 31 ngay";
         break;
         case 2;
-        echo "thang nay co 29 hoac 28 ngay"
+        echo "thang nay co 29 hoac 28 ngay";
     }
 
 //Array and for
