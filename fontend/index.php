@@ -1,6 +1,12 @@
-<?php include ('header.php');?>
-<?php include ('sidebar-a.php');?>
-<div id="content">
+<?php include('Header.php');?>
+<?php include('ConnectSql.php');?>
+<?php include('Function.php');?>
+<?php include('Sidebar-a.php');?>
+    <link rel="stylesheet" href="../CSS/Style.css">
+
+
+
+    <div id="content">
     <h2>Welcome To izCMS</h2>
     <div>
         <p>
@@ -16,5 +22,5 @@
 
 </div>
 
-<?php include ('sidebar-b.php');?>
-<?php include ('footer.php');?>
+<?php include('Sidebar-b.php');?>
+<?php include('Footer.php');?>
