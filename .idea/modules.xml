@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/learn-php.iml" filepath="$PROJECT_DIR$/.idea/learn-php.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/demo_izcms.iml" filepath="$PROJECT_DIR$/.idea/demo_izcms.iml" />
+>>>>>>> 0921698e08bad1339588a0416d446f9b45e96d90
     </modules>
   </component>
 </project>
